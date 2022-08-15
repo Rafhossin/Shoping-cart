@@ -1,0 +1,105 @@
+ /*body styling*/
+ 
+ @import url(https://fonts.googleapis.com/css?family=Work+Sans:300,600);
+ body {
+     margin: 0;
+     background-image: url(image/pexels-photo-1103970.webp);
+     background-size: auto;
+     background-position: center;
+     background-repeat: no-repeat;
+     position: relative;
+ }
+ /* Styling of the h1 tag */
+ 
+ #team {
+     border: 2px solid;
+     border-radius: 10px;
+     background-color: lightblue;
+     text-align: center;
+     width: 40%;
+     font-family: Arial, Helvetica, sans-serif;
+     margin-left: auto;
+     margin-right: auto;
+ }
+ /* Giving all the div elements a margin top value */
+ 
+ div {
+     margin-top: 5em;
+ }
+ /* Loading logo */
+ 
+ #loadimage {
+     margin-left: 25%;
+     border: 2px solid darkblue;
+ }
+ /* Time message displayed */
+ 
+ #secondsdisplay {
+     font-size: large;
+     margin-top: 10px;
+     margin-left: 30%;
+     color: rgb(219, 15, 15);
+ }
+ /* Flexbox layout has been introduced through  this class */
+ 
+ .row {
+     display: flex;
+     padding: 10px;
+ }
+ /* Students name has been styled through flexbox and other properties */
+ 
+ .column {
+     background-color: lightblue;
+     text-align: center;
+     border-radius: 5px;
+     box-shadow: 5px 5px 2px #888888;
+     border: 2px solid;
+     font-family: sans-serif, Arial, Helvetica;
+     flex: 10px;
+     padding: 10px;
+     margin-right: 5px;
+ }
+ /*Footer styling*/
+ 
+ #footer {
+     text-indent: 2em;
+     background-color: #14213D;
+     color: #ffffff;
+     font-size: 20px;
+     padding-top: 20px;
+     padding-left: 20px;
+     min-height: 100%;
+     overflow-y: hidden;
+     left: 0;
+     bottom: 0;
+     width: 100%;
+ }
+ 
+ .columnFooter {
+     max-width: 25%;
+     padding: 0px 15px 20px 15px;
+     display: inline;
+     float: left;
+ }
+ /*fotter hovering over the links styling*/
+ 
+ .footerLinks:hover {
+     background-color: #FCA311;
+     transition: 0.25s;
+     border-radius: 3px;
+     padding: 5px;
+ }
+ /*styling for the anchor tags within the fotter */
+ 
+ #footer a {
+     text-decoration: none;
+     color: #ffffff;
+     padding: 5px;
+ }
+ /*logo styling*/
+ 
+ .logoImage {
+     float: left;
+     width: max-content;
+     height: 70px;
+ }

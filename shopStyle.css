@@ -1,0 +1,186 @@
+/* Flexbox layout has been introduced through  2 rows   */
+.row {
+    display: flex;
+}
+
+
+/* Flexbox layout has been introduced through  3 column */
+
+.column {
+    flex: 33.33%;
+    padding: 25px;
+}
+
+
+/* Hover effect has been introduced on each column picture  */
+
+.column:hover {
+    box-shadow: 0 10px 14px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: 0.5s;
+}
+
+
+/* Product images width has set to 100% */
+
+img {
+    width: 100%;
+}
+
+
+/* All h2 tag elements has given a style */
+
+h2 {
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid;
+    border-radius: 10px;
+    background-color: floralwhite;
+    text-align: center;
+    width: 20%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* Scroll to the top button styled */
+
+#myButton {
+    display: block;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    font-size: 20px;
+    border: none;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+
+/* Hover effect has given to Scroll to the top button  */
+
+#myButton:hover {
+    background-color: coral;
+    transition-duration: 0.20s;
+}
+
+
+/* ALL Labels of the form has been aligned by implementing float left */
+
+label {
+    float: left;
+    width: 35%;
+    padding: 2px;
+    padding-top: 1px;
+    text-align: left;
+    font-weight: bold;
+}
+
+
+/* 1st Fieldset of the form has been styled */
+
+fieldset {
+    background-color: lightblue;
+    padding: 2em;
+    box-sizing: border-box;
+    font: 80% sans-serif;
+}
+
+
+/* 2nd Fieldset has been styled  */
+
+#color {
+    background-color: rgb(206, 79, 105);
+    text-align: center;
+    font-weight: bold;
+}
+
+
+/* Place order and Edit button has given a style */
+
+.output {
+    width: 20%;
+    margin: 10px;
+    padding: 7px;
+    background-color: rgb(162, 147, 175);
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+
+/* Hover effect has given to Place order and Edit button  */
+
+.output:hover {
+    transition-duration: 0.20s;
+    background-color: rgb(211, 125, 12);
+}
+
+
+/* Given a margin between options and inputs    */
+
+strong {
+    margin-left: 15px;
+}
+
+
+/* To align total bill input with rest of the input */
+
+#totalBill {
+    margin-left: 40%;
+}
+
+
+/* using styling on invoice */
+
+#invoice {
+    display: none;
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: lightblue;
+    padding-top: 5px;
+}
+
+
+/* Making user name capitalize */
+
+#nameOnInvoice {
+    text-transform: capitalize;
+}
+
+
+/* Giving padding and margin to invoice buttons (Edit Form and Mail Order */
+
+.invoceButton {
+    padding: 5px;
+    margin: 10px 0 10px 0;
+    width: 20%;
+    background-color: rgb(162, 147, 175);
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+
+/*styling on the invoice buttons when hovered over*/
+
+.invoceButton:hover {
+    background-color: coral;
+    transition-duration: 0.20s;
+}
+
+
+/* Span tag element Total Quantity styled */
+
+#totalQuantity {
+    width: 3%;
+    border-radius: 2px;
+    text-align: center;
+}
+
+
+/* Span tag element Total Quantity aligned  */
+
+#totalQuantityOfProducts {
+    margin-left: 12%;
+}

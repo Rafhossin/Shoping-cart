@@ -1,0 +1,41 @@
+                   /*Body has been given a background color  */
+                   
+                   body {
+                       background-color: rgb(86, 172, 172);
+                   }
+                   /* "Page Editor" text has been styled*/
+                   
+                   h1 {
+                       border: 2px solid blue;
+                       width: 35%;
+                       border-radius: 5px;
+                       background-color: rgb(255, 240, 253);
+                       margin-left: auto;
+                       margin-right: auto;
+                       padding: 5px;
+                       text-align: center;
+                   }
+                   /* All h2 tag(name,role,Tasks ) */
+                   
+                   h2 {
+                       margin-left: 10px;
+                   }
+                   /* Div container elements has been styled */
+                   
+                   div {
+                       border: 2px solid blue;
+                       width: 50%;
+                       border-radius: 20px;
+                       box-shadow: 5px 5px 2px #888888;
+                       background-color: aliceblue;
+                       margin-left: auto;
+                       margin-right: auto;
+                       padding: 5px;
+                       font-size: 20px;
+                       padding-top: 10px
+                   }
+                   /* Link tag */
+                   
+                   a {
+                       color: blue;
+                   }

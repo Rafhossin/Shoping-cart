@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://w1738693.users.ecs.westminster.ac.uk/WebDevCW2022/StyleSheetMainPage.css">
+    <link rel="stylesheet" href="https://w1785478.users.ecs.westminster.ac.uk/coursework/shopStyle.css">
+    <!-- <link rel="stylesheet" href="shopStyle.css"> -->
+    <title>Shop Page</title>
+
+
+</head>
+
+<body>
+
+    <div id="headerImage">
+        <!-- this id is for the header image -->
+        <h1 id="mainHeading">Buy Products</h1>
+    </div>
+
+    <nav>
+        <a id="btnLogo" href="https://w1738693.users.ecs.westminster.ac.uk/WebDevCW2022/MainPage.html"><img src="https://w1738693.users.ecs.westminster.ac.uk/WebDevCW2022/logo.png" alt="sportslogo" class="logoImage"></a>
+        <!-- logo image -->
+        <ul>
+            <li><a href="https://w1738693.users.ecs.westminster.ac.uk/WebDevCW2022/ContentPage.html">Content Page</a></li>
+            <li><a href="https://w1785478.users.ecs.westminster.ac.uk/coursework/shop.html">Buy Products</a></li>
+            <li> <a href="https://w1738693.users.ecs.westminster.ac.uk/WebDevCW2022/QueryForm.html">Query Form</a></li>
+            <li><a href="https://w1856968.users.ecs.westminster.ac.uk/WebDev/CWK/Quiz.html">Quiz</a></li>
+            <li><a href="https://w1856968.users.ecs.westminster.ac.uk/WebDev/CWK/StudentDetails.html">Student
+                    Details</a></li>
+            <li><a href="https://w1830011.users.ecs.westminster.ac.uk/coursework/sitemap.html">Sitemap</a></li>
+            <li><a href="https://w1830011.users.ecs.westminster.ac.uk/coursework/thumbnail.html">Gallery</a></li>
+        </ul>
+    </nav>
+
+
+
+    <h2>Women Collection</h2>
+    <div class="row">
+
+        <div class="column">
+            <img src="image/205889.webp" alt="ladies top">
+            <h4>Berry Red Active Sports Long Sleeve Top</h4>
+            <h3>£15 </h3>
+        </div>
+
+        <div class="column">
+            <img src="image/350545.webp" alt="ladies legging">
+            <h4>Black/Animal Side Stripe Full Length Legging</h4>
+            <h3>£15</h3>
+        </div>
+
+        <div class="column">
+            <img src="image/A27412.webp" alt="ladies trainer">
+            <h4>Black Active Sports Running Trainer </h4>
+            <h3>£50</h3>
+        </div>
+    </div>
+
+    <h2>Men Collection</h2>
+
+    <div class="row">
+        <div class="column">
+            <img src="image/888174.webp" alt="men jogger">
+            <h4>Navy Slim Jogger </h4>
+            <h3>£20</h3>
+        </div>
+
+        <div class="column">
+            <img src="image/M62825.webp" alt="men jogger">
+            <h4>Black Slim Jogger</h4>
+            <h3>£20</h3>
+        </div>
+
+        <div class="column">
+            <img src="image/T06226.webp" alt="men">
+            <h4>V-Lite Active Running Trainer</h4>
+            <h3>£40</h3>
+        </div>
+    </div>
+
+    <form name="myForm" action="mailto:krhossin@yahoo.co.uk" enctype="text/plain" method="post">
+
+        <div id="myform">
+            <fieldset>
+
+                <h2>Order Form</h2>
+
+                <h3> Personal Details: </h3>
+                <div>
+                    <label for="name"> Name:</label>
+                    <input type="text" name="Name" id="name" placeholder="Enter your name">
+                </div>
+
+
+                <div>
+                    <label for="email">Email address: </label>
+                    <input type="text" id="email" name="email" placeholder="Enter your email">
+                </div><br>
+
+
+                <h3>Product and Quantity: <span id="totalQuantityOfProducts">Total Quantity: </span> <input type="text" name="totalQuantity" id="totalQuantity"></h3>
+
+                <div onchange="quantityAndProductValue()">
+                    <select class="product" name="top" id="top">
+                    <option value="0">0</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+            </select>
+                    <label id="berry" for="top">Berry Red Active Sports Long Sleeve Top (Size M)(£15)</label>
+                    <strong>Total Cost: £</strong> <input type="text" name="totalTopPrice" id="totalTopPrice"><br>
+
+
+                    <select class="product" name="legging" id="legging">
+                    <option value="0">0</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+            </select>
+                    <label id="animal" for="legging">Black/Animal Side Stripe Full Length Legging (Size M)(£15)</label>
+                    <strong>Total Cost: £</strong> <input type="text" name="totalLeggingPrice" id="totalLeggingPrice"><br>
+
+
+                    <select class="product" name="womenTrainer" id="womenTrainer">
+                    <option value="0">0</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+            </select>
+                    <label id="womenActiveTrainer" for="womenTrainer">Black Active Sports Running Trainer (Size 6)(£50)</label>
+                    <strong>Total Cost: £</strong> <input type="text" name="totalWomenTrainerPrice" id="totalWomenTrainerPrice"><br>
+
+
+                    <select class="product" name="jogger" id="jogger">
+                    <option value="0">0</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+            </select>
+                    <label id="navy" for="jogger">Navy Slim Jogger (Size M)(£20)</label>
+                    <strong>Total Cost: £</strong> <input type="text" name="totalJoggerPrice" id="totalJoggerPrice"><br>
+
+
+                    <select class="product" name="slimJogger" id="slimJogger">
+                    <option value="0">0</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+            </select>
+                    <label id="black" for="slimJogger">Black Slim Jogger (Size M)(£20)</label>
+                    <strong>Total Cost: £</strong> <input type="text" name="totalSlimJoggerPrice" id="totalSlimJoggerPrice"><br>
+
+
+                    <select class="product" name="menTrainer" id="menTrainer">
+                    <option value="0">0</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+            </select>
+                    <label id="v-liteTrainer" for="menTrainer">V-Lite Active Running Trainer (Size 9)(£40)</label>
+                    <strong>Total Cost: £</strong> <input type="text" name="totalMenTrainerPrice" id="totalMenTrainerPrice"><br>
+
+                    <strong id="totalBill">Total Bill: £</strong> <input type="text" name="additionOfPrices" id="additionOfPrices">
+                </div>
+
+            </fieldset>
+
+            <fieldset id="color">
+
+                <button class="output" type="button" id="placeOrderButton" value="Show input">Place Order</button>
+
+                <input class="output" type="reset" name="reset" value="Reset">
+
+            </fieldset>
+        </div>
+
+        <div id="invoice">
+
+            <h2>Invoice</h2>
+
+            Name: <span id="nameOnInvoice"></span><br> Email: <span id="emailOnInvoice"></span><br> Invoice Details <br> -----------------------------------------
+            <span id="productsOnInvoice"></span><br> ----------------------------------------- <br> Total Bill: £<span id="totalBillOnInvoice"></span>
+
+
+
+            <div>
+                <button type="button" class="invoceButton" id="editForm">Edit Form</button>
+                <button type="submit" class="invoceButton" id="EmailOrder">Mail Order</button>
+            </div>
+
+        </div>
+    </form>
+    <div id="footer">
+        <button onClick="functionTop()" id="myButton" title="Go to top">Top</button>
+
+        <div class="columnFooter" id="logoColumn">
+            <a href="https://w1738693.users.ecs.westminster.ac.uk/WebDevCW2022/MainPage.html"><img src="https://w1738693.users.ecs.westminster.ac.uk/WebDevCW2022/logo.png" alt="sportslogo" class="logoImage"></a>
+        </div>
+
+        <div class="columnFooter">
+            <p>115 NEW CAVENDISH STREET</p>
+            <p>LONDON W1W 6UW</p>
+        </div>
+
+        <div class="columnFooter">
+            <p>Contact Details:</p>
+            <p>Daniel, Hassan</p>
+            <p>Khandakar, Thiviya</p>
+
+        </div>
+
+        <div class="columnFooter">
+            <p><a class="footerLinks" href="https://w1785478.users.ecs.westminster.ac.uk/coursework/PageEditor.html">Link to
+                editor</a></p>
+        </div>
+        <div class="columnFooter">
+            <a class="footerLinks" href="https://w1785478.users.ecs.westminster.ac.uk/coursework/ContentPage.html ">
+                content page</a>
+
+        </div>
+    </div>
+    <script src="shop.js"></script>
+</body>
+
+</html>

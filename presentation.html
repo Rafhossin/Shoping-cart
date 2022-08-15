@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="presentationStyle.css">
+    <title>Presentation Page</title>
+
+    <script>
+        let seconds = 5;
+        // This funcion will display the the coundown time message 
+        function displaySeconds() {
+            seconds -= 1;
+            document.getElementById("secondsdisplay").innerText = "This Page Will Be Redirect To The Home Page In " + seconds + " Seconds... ";
+        }
+        setInterval(displaySeconds, 1000); // 1 milisecond = 1 second
+
+        //This function will redirect to our home page
+        function redirectToHomePage() {
+            window.location = "https://w1738693.users.ecs.westminster.ac.uk/WebDevCW2022/MainPage.html";
+        }
+        setTimeout("redirectToHomePage()", 5000); // After 5 seconds it will redirect  to the home page
+    </script>
+
+</head>
+
+<body>
+
+    <img src="image/logo.png" alt="sportslogo" class=logoImage>
+
+    <div id="secondsdisplay"></div>
+    <img id="loadimage" src="image/loading-icon-animated-gif-19.jpg" height="35" width="35" alt="loading">
+
+
+
+
+    <hr>
+    <div id="team">
+        <h1> Name Of The Developers</h1>
+    </div>
+
+    <div class="row">
+
+        <h2 class="column">Khandakar Rafiqul Hossin</h2>
+
+        <h2 class="column"> Thiviya Thavabalan</h2>
+
+        <h2 class="column">Hassan Shahzad</h2>
+
+
+        <h2 class="column">Diliza Gazi Woodhall</h2>
+
+
+    </div>
+
+    <div id="footer">
+        <div class="columnFooter" id="logoColumn">
+            <img src="image/logo.png" alt="sportslogo" class="logoImage">
+        </div>
+
+        <div class="columnFooter">
+            <p>115 NEW CAVENDISH STREET</p>
+            <p>LONDON W1W 6UW</p>
+        </div>
+
+        <div class="columnFooter">
+            <p>Contact Details:</p>
+            <p>Daniel, Hassan</p>
+            <p>Khandakar, Thiviya</p>
+
+        </div>
+
+        <div class="columnFooter">
+            <p><a class="footerLinks" href="https://w1785478.users.ecs.westminster.ac.uk/coursework/PageEditor.html">Link to
+                editor</a></p>
+        </div>
+    </div>
+
+
+</body>
+
+</html>

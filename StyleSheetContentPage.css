@@ -1,0 +1,127 @@
+body {
+    background-color: lightblue;
+}
+
+p#pageLink {
+    font-size: 21px;
+    margin-left: 5%;
+}
+
+#sideNav {
+    list-style-type: none;
+}
+
+#sideNav li {
+    margin-left: 7%;
+    padding: 5px;
+    font-size: 20px;
+    width: max-content;
+}
+
+#sideNav li:hover {
+    background-color: #FCA311;
+    transition: 0.25s;
+    border-radius: 3px;
+    cursor: pointer;
+    width: max-content;
+}
+
+.textPadding {
+    padding: 20px;
+}
+
+.sportinEventsFactsSection {
+    width: 90%;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 3px;
+    font-size: 20px;
+    margin: 20px 3% 20px 4%;
+}
+
+.sportinEventsFactsSection:hover {
+    box-shadow: 0 10px 14px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: 0.25s;
+    background-color: lavender;
+}
+
+.famousPlayersTableSection {
+    width: 90%;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: 20px 3% 20px 4%;
+    border-radius: 3px;
+    font-size: 20px;
+}
+
+.famousPlayersTableSection:hover {
+    box-shadow: 0 10px 14px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: 0.25s;
+    background-color: lavender;
+}
+
+.atheleteFactsSection {
+    width: 90%;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: 20px 3% 20px 4%;
+    border-radius: 3px;
+    font-size: 20px;
+}
+
+.atheleteFactsSection:hover {
+    box-shadow: 0 10px 14px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: 0.25s;
+    background-color: lavender;
+}
+
+.worldsTopSportsSection {
+    width: 40%;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 3px;
+    font-size: 20px;
+    margin: 20px 0px 20px 10%;
+}
+
+.worldsTopSportsSection:hover {
+    box-shadow: 0 10px 14px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: 0.25s;
+    background-color: lavender;
+}
+
+.sportsFactsSection {
+    width: 90%;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: 20px 3% 20px 4%;
+    border-radius: 3px;
+    font-size: 20px;
+}
+
+.sportsFactsSection:hover {
+    box-shadow: 0 10px 14px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: 0.25s;
+    background-color: lavender;
+}
+
+table {
+    border-collapse: collapse;
+    margin: auto;
+    width: 90%;
+    text-align: center;
+    padding: 30px;
+    border: 1px solid;
+}
+
+td,
+th {
+    border: 1px solid;
+}
+
+#sportsPlayerImg {
+    float: right;
+    margin: 40px 10% 40px 0px;
+    height: 290px;
+    width: 400px;
+}
